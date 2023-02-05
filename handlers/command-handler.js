@@ -1,4 +1,5 @@
 const { readdirSync } = require('fs');
+const { builtinModules } = require('module');
 const { resolve } = require('path');
 
 const commands = new Map();
@@ -32,3 +33,4 @@ async function handle(msg, savedGuild) {
 }
 
 module.exports.handle = handle;
+module.exports.commands = commands;

@@ -4,10 +4,15 @@
   "description": "",
   "main": "bot.js",
   "dependencies": {
+    "cookies": "^0.8.0",
+    "disco-oauth": "^5.1.1",
     "discord.js": "^12.3.1",
-    "mongoose": "^5.10.9"
+    "express": "^4.18.1",
+    "fuse.js": "^6.6.2",
+    "html": "^1.0.0",
+    "mongoose": "^5.10.9",
+    "pug": "^3.0.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
